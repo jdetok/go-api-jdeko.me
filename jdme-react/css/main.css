@@ -1,0 +1,36 @@
+html,
+body,
+#root {
+    min-height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+    padding: 0 1rem 0;
+}
+
+body {
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 18px;
+}
+
+.hdr, 
+.ftr {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a {
+    color: rgba(255, 192, 203);
+}
+
+h1 {
+    color:rgb(226, 201, 165);
+    font-size: 44px;
+}
